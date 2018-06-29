@@ -3,7 +3,7 @@ $("#movie").on("keyup", function(){
 // $("#btn").click(function(){
 $("span").text("");
 var movie = $("#movie").val();
- $.getJSON('http://www.omdbapi.com/?apikey=60f7bdd3&t=' + movie,
+ $.getJSON('http://www.omdbapi.com/?apikey=XXXXX=' + movie,
   function(data) {
     console.log(data);
     var poster = data["Poster"];
